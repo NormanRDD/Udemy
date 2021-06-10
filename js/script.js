@@ -53,20 +53,20 @@ const obj = {
     let arr = ['plum.png','orange.jpg',6,'apple.bmp',{},[]];
     console.log(arr[1]);
     */
-//    alert('Hello');
-// const result = confirm("Are u here?");
-// console.log(result);
+    alert('Hello');
+ const result = confirm("Are u here?");
+ console.log(result);
 // const answer = prompt ("Вам есть 18?","17");
 // const answer = +prompt ("Вам есть 18?","17");
 // console.log(typeof(answer));
 // console.log(answer+5);
-// const answers = [];
-// answers [0] = prompt ('Как ваше имя?', '');
+ const answers = [];
+ answers [0] = prompt ('Как ваше имя?', '');
 // answers [1] = prompt ('Как ваше фамилия?', '');
 // answers [2] = prompt ('Сколько вам лет?', '');
 
 // document.write(answers);
-// console.log(typeof (answers));
+ console.log(typeof (answers));
 // console.log(typeof (null));
 
 /*
@@ -105,7 +105,7 @@ let incr = 10,
     // console.log(isChecked || isClose);
     console.log(isChecked && !isClose);
     console.log("-------------------");
-    console.log("soundCheck");
+    console.log("soundChe");
 
     
     
