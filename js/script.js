@@ -105,7 +105,7 @@ let incr = 10,
     // console.log(isChecked || isClose);
     console.log(isChecked && !isClose);
     console.log("-------------------");
-    console.log("soundCheck!");
+    console.log("soundCheck");
 
     
     
