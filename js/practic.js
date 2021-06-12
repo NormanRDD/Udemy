@@ -22,6 +22,7 @@
 Проверить, чтобы все работало без ошибок в консоли */
 
 'use strict';
+/*
 
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
@@ -43,4 +44,57 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+*/
+// if (2){
+//     console.log("ok");
+// }   else {
+//     console.log("error");
+// }
 
+// if (num < 49) {
+//     console.log("error");
+// } else if (num > 100) {
+// } else{
+//     console.log("ok");
+// }
+// (num === 50) ? console.log('ok') : console.log('Error'); // ? тернарный аргумент
+// 4 + 4 бинарный аргумент в виде плюса
+//+4 унарный аргумент в виде плюса
+
+/*
+const num = 50;
+switch (num) {
+    case 49 :
+        console.log("neverno");
+        break;
+    case 100 :
+        console.log("neverno");
+        break;
+    case '50' :
+        console.log("verno");
+        break;
+        default : 
+        console.log(":(");
+
+}
+ */
+ let num = 50;
+/*
+ while (num <= 55){
+    console.log(num);
+    num++;
+ }
+do {
+    console.log(num);
+    num++;
+}
+while (num < 55);
+*/
+
+for (let i = 1;i< 8; i++){
+   if ( i === 6){
+    //    break;
+    continue ;
+   }
+   console.log(i);
+}
