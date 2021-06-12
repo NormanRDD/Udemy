@@ -112,8 +112,14 @@ const calc = (a,b) => {
     
     console.log(fruit.indexOf("q"));
     const logg = "Hello World";
-    console.log(logg.slice(6, 10));
+    // console.log(logg.slice(6, 10));
     // console.log(logg.substring(9, 8));
-    console.log(logg.substring(-2, 8));
+    // console.log(logg.substring(-2, 8));
     console.log(logg.substr(-2, 1));
 
+    // const num = 12.2;
+    // console.log(Math.round(num));
+    
+    const test = "12.2p"; // Текст в Число!
+    console.log(parseInt(test));
+    console.log(parseFloat(test));
