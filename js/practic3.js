@@ -79,7 +79,7 @@ const personalMovieDB = {
     }
     writeYourGenres();  
     */
-
+    /*
     function first (){
         // Do something
         setTimeout(function(){
@@ -110,3 +110,80 @@ function done(){
 }
 
     learnJS('JavaScript', done); 
+    */
+
+    // const obj = new Object();
+// const options = {
+//     name: 'test',
+//     width: 1024,
+//     height: 1024,
+//     colors:{
+//         border: 'black',
+//         bg: 'red'
+//     } ,
+//     makeTest: function(){
+//         console.log("Test");
+//     }
+// };
+// options.makeTest();
+// const {border, bg} = options.colors; //деструктуризация
+// console.log(border);
+    
+
+// console.log(Object.keys(options));
+// const mcDonaldsMenu = {
+//     Bigmac: 1000,
+//     BigTasty: 700,
+//     Cola: 500,
+//     PotatoFree: 1200
+// };
+
+// console.log(options["colors"]["border"]);
+// delete options.name;
+// console.log(options);
+
+//     let counter = 0;
+// for (let key in options){
+//     if (typeof(options[key]) === 'object'){
+//         for (let key2 in options[key]){
+//         console.log(`Свойство ${key2} имеет значение ${options[key][key2]}`);
+//     // counter++;
+//     }
+// } else{
+//     console.log(`Свойство ${key} имеет значение ${options[key]}`);
+//     counter++;
+//     }
+// }
+//  console.log(counter);
+
+
+//21
+
+const arr = [2, 33, 222, 6, 8, 10];
+arr.sort(compareNum);
+console.log(arr);
+function compareNum (a, b){
+    return a - b;
+}
+// arr[99] = 0;
+// console.log(arr.length);
+// console.log(arr);
+arr.forEach(function(number, i, ara){
+    console.log(`${i}: ${number} внутри массива ${ara}`);
+});
+
+// arr.pop(); // удаление последнего элемента массива
+// arr.push(10); //добавление элемента в конец массива
+
+// console.log(arr);
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+// for (let value of arr) {
+//     console.log(value);
+// }
+ const str = prompt("","");
+ const products = str.split("-");
+ products.sort();
+ console.log(products.join(",")); 
