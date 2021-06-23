@@ -159,31 +159,138 @@ function done(){
 
 //21
 
-const arr = [2, 33, 222, 6, 8, 10];
-arr.sort(compareNum);
-console.log(arr);
-function compareNum (a, b){
-    return a - b;
-}
 // arr[99] = 0;
 // console.log(arr.length);
 // console.log(arr);
-arr.forEach(function(number, i, ara){
-    console.log(`${i}: ${number} внутри массива ${ara}`);
-});
+// arr.forEach(function(number, i, ara){
+//     console.log(`${i}: ${number} внутри массива ${ara}`);
+// });
 
-// arr.pop(); // удаление последнего элемента массива
-// arr.push(10); //добавление элемента в конец массива
+// // arr.pop(); // удаление последнего элемента массива
+// // arr.push(10); //добавление элемента в конец массива
 
+// // console.log(arr);
+
+// // for (let i = 0; i < arr.length; i++) {
+// //     console.log(arr[i]);
+// // }
+// // for (let value of arr) {
+// //     console.log(value);
+// // }
+//  const str = prompt("","");
+//  const products = str.split("-");
+//  products.sort();
+//  console.log(products.join(",")); nst arr = [2, 33, 222, 6, 8, 10];
+// arr.sort(compareNum);
 // console.log(arr);
+// function compareNum (a, b){
+//     return a - b;
+// }
+// let a = 5,
+//     b = a;
+// b = b + 5;
+// console.log(b);
+// console.log(a);
 
-// for (let i = 0; i < arr.length; i++) {
-//     console.log(arr[i]);
+// const obj = {
+//     a: 5,
+//     b: 1
 // }
-// for (let value of arr) {
-//     console.log(value);
+// const copy = obj; //ссылка на объект
+// copy.a = 10;
+// console.log(copy);
+// console.log(obj);
+
+// function copy (mainObj){
+//     let objCopy = {};
+
+//     let key;
+//     for (key in mainObj) {
+//         objCopy[key] = mainObj[key];
+//     }
+//     return objCopy;
 // }
- const str = prompt("","");
- const products = str.split("-");
- products.sort();
- console.log(products.join(",")); 
+
+// const numbers = {
+//     a:2,
+//     b:5,
+//     c:{
+//         x:7,
+//         y:4
+//     }
+// };
+// const newNumbers = copy (numbers);
+
+// newNumbers.a = 10;
+// newNumbers.c.x = 10;// ссылочное значениещщ0
+
+// console.log(newNumbers);
+// console.log(numbers);
+
+// const add ={
+//     d:17,
+//     e:20
+// };
+
+// const clone = Object.assign({},add);
+// clone.d = 20;
+// console.log(add);
+// console.log(clone);
+
+// const oldArray = ['a','b','c'];
+// const newArray = oldArray.slice();
+
+// newArray[1] = 'adsdsds';
+// console.log(newArray);
+// console.log(oldArray);
+
+// const video = ['youtube', 'vimeo', 'rutube'],
+//       blogs = ['wordpress', 'livejournal','blogger'],
+//       internet = [...video,...blogs,'vk','facebook'];
+//       console.log(internet);
+
+//       function log(a,b,c){
+//           console.log(a);
+//           console.log(b);
+//           console.log(c);
+//       }
+
+//       const num = [2, 5, 7];
+
+//       log(...num);
+
+//       const array = ['a','b'];
+//       const newAarray = [...array]
+
+//       const q = {
+//           one: 1,
+//           two: 2
+//       };
+//       const newObj = {...q};
+//       console.log(newObj);
+    
+    let str = "some";
+    let strObj = new String(str);
+    // console.log (typeof(str));
+    // console.log (typeof(strObj));
+
+    // console.dir([1,2,3]);
+
+    const soldier = {
+        health: 400,
+        armor:100,
+        sayHello: function(){
+            console.log("Hello");
+        }
+    };
+    const John = Object.create(soldier);
+
+    // const John = {
+    //     health: 100
+    // };
+
+    // John.__proto__ = soldier;
+    // Object.setPrototypeOf(John,soldier);
+    // console.log(John.armor); 
+    John.sayHello();
+
