@@ -1,5 +1,5 @@
 .box {
-  width: 150px;
+  width: 1500px;
   height: 150px;
   background-color: red;
 }
@@ -16,6 +16,7 @@ button {
 }
 
 .circle {
+   content: "";
 	width: 80px;
 	height: 80px;
 	background-color: blue;
