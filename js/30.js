@@ -40,40 +40,42 @@
 //     promo.forEach(function (item) {
 //         item.remove();
 //     });
-
 //     //2
 //     const poster = document.querySelector('.promo__bg'),
-//           genre = poster.querySelector('.promo__genre');
-//         //   const genre = document.querySelector('.promo__genre');
-//         genre.textContent = 'драма',
-
-// // const text = document.createTextNode('Драма');
-// // const genre = document.querySelector('.promo__genre');
-// // genre.replaceWith(text);  
-// //3
-// // const mars = ('../img/mars.webp');
-// // var img = document.createElement("IMG");
-// // img.src = "img\bg.jpg";
-
-// // const mars2 = img;
-// // mars.replaceWith(mars2);
-// // console.log(img);
-
-// poster.style.backgroundImage = 'url("img/bg.jpg")';
-// //4
-//     const movieList = document.querySelector('.promo__interactive-list');
-//     movieList.innerHTML = "";
-
+//     genre = poster.querySelector('.promo__genre');
+//     //   const genre = document.querySelector('.promo__genre');
+//     genre.textContent = 'драма';
+    
+//     // const text = document.createTextNode('Драма');
+//     // const genre = document.querySelector('.promo__genre');
+//     // genre.replaceWith(text);  
+//     //3
+//     // const mars = ('../img/mars.webp');
+//     // var img = document.createElement("IMG");
+//     // img.src = "img\bg.jpg";
+    
+//     // const mars2 = img;
+//     // mars.replaceWith(mars2);
+//     // console.log(img);
+    
+//     poster.style.backgroundImage = 'url("../practic5img/bg.jpg")';
+//     //4
+    
 //     movieDB.movies.sort();
 //     // console.log(poster.innerHTML);
-
+    
+//     const movieList = document.querySelector('.promo__interactive-list');
+//     movieList.innerHTML = "";
 //     movieDB.movies.forEach((film, i) => {
 //         movieList.innerHTML += `
 //         <li class="promo__interactive-item">${i + 1} ${film}
-//             <div class="delete"></div>
+//         <div class="delete"></div>
 //         </li>
 //         `;
 //     }); 
 //     // a = a + 1;
 //     // a += 1;
+    
 
+    
+    
